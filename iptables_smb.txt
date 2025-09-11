@@ -1,0 +1,4 @@
+sudo iptables -A INPUT -p tcp -m tcp --dport 445 –s {IP} -j ACCEPT
+sudo iptables -A INPUT -p tcp -m tcp --dport 139 –s {IP} -j ACCEPT
+sudo iptables -A INPUT -p udp -m udp --dport 137 –s {IP} -j ACCEPT
+sudo iptables -A INPUT -p udp -m udp --dport 138 –s {IP} -j ACCEPT
