@@ -1,0 +1,2 @@
+iptables -I INPUT -p tcp -s {ZABBIX_SERVER_IP} --dport 10050 -j ACCEPT
+iptables -I OUTPUT -p tcp -s {ZABBIX_SERVER_IP} --dport 10051 -j ACCEPT
