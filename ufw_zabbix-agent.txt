@@ -1,0 +1,2 @@
+sudo ufw allow from {ZABBIX_SERVER_IP} to any port 10050 proto tcp
+sudo ufw allow out to {ZABBIX_SERVER_IP} port 10051 proto tcp
